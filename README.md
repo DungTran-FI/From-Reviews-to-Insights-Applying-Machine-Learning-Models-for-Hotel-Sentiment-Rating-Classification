@@ -70,7 +70,9 @@ The project demonstrated that the **ability to predict True Negatives (actual lo
 - SMOTE emerged as the best method, achieving an F1-score of 0.83 and a precision of 0.81, effectively capturing low ratings while minimizing false positives.
 - Random Under-Sampling yielded the highest recall of 0.90, successfully identifying more low ratings, although it sacrificed some precision.
 
-Correctly predicting low ratings is crucial for the company, enabling timely interventions to enhance customer retention. Given our focus on accurately identifying True Negatives, we selected **XGBoost with the Random Under-Sampling method (accuracy: 0.8974)** as our final model. Additionally, the hyperparameter tuning implementation of **Bayesian Search** improved the model's performance, **increasing the True Negative rate from 0.9007 to 0.9016** compared to the model with default hyperparameters.
+Correctly predicting low ratings is crucial for the company, enabling timely interventions to enhance customer retention. Given our focus on accurately identifying True Negatives, we selected **XGBoost with the Random Under-Sampling method (accuracy: 0.8974)** as our final model. 
+
+Additionally, the hyperparameter tuning implementation of **Bayesian Search** improved the model's performance, **increasing the True Negative rate from 0.9007 to 0.9016** compared to the model with default hyperparameters.
 
 ## Disclaimer
 This project was developed as a group assignment for the "30E03000 - Data Science for Business I" course at Aalto University. While the design, implementation, and analysis aspects of the project were collaboratively completed by the team, each individual contributed to specific parts of the project.

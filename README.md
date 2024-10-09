@@ -1,5 +1,7 @@
 # From Reviews to Insights: Applying Machine Learning Models for Sentiment Rating Classification
 
+### The complete report (Jupter Notebook) is available in [Hotel Rating Classification](https://github.com/DungTran-FI/From-Reviews-to-Insights-Applying-Machine-Learning-Models-for-Hotel-Sentiment-Rating-Classification/blob/main/DungTran%20-%20Hotel%20Rating%20Classification.ipynb)
+
 ## 1. Business Problem & Motivation
 Civil services companies, such as hotels, rely heavily on customer reviews to understand their service's strengths and weaknesses. Positive reviews help attract more customers and boost profits. However, manually analyzing each review is labor-intensive and inefficient for capturing the overall picture of customer satisfaction.
 
@@ -21,6 +23,8 @@ These two files will be merged using the shared column offering_ID, representing
 Also, web scraping was used to gather additional information about the hotels, including details such as the hotel class, number of amenities, price range, distance to the nearest metro station, and the number of nearby attractions, etc. among other features.
 
 The final dataset (after data collection & merging) has **239,1666 rows and 16 attributes.**
+
+Note: Due to the extremely large size of the dataset, it cannot be uploaded to GitHub. Please contact the project author to obtain the full dataset: [thuydungtran2000@gmail.com](mailto:thuydungtran2000@gmail.com).
 
 
 ## 2. Aim of Study
@@ -60,7 +64,7 @@ Several models will be implemented to automate sentiment classification:
 
 These models will classify reviews as Low or High. Additionally, hybrid models will combine sentiment classification with numerical features (e.g., review length, hotel information) to predict customer ratings more accurately.
 
-## 4. Expected Outcomes
+## 4. Project Outcome
 The project demonstrated that the **ability to predict True Negatives (actual low ratings)** significantly improves with balanced data across all models. Among the resampling methods evaluated:
 
 - SMOTE emerged as the best method, achieving an F1-score of 0.83 and a precision of 0.81, effectively capturing low ratings while minimizing false positives.

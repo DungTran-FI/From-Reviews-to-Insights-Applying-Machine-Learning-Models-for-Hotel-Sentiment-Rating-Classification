@@ -5,7 +5,7 @@
 ## 1. Business Problem & Motivation
 Civil services companies, such as hotels, rely heavily on customer reviews to understand their service's strengths and weaknesses. Positive reviews help attract more customers and boost profits. However, manually analyzing each review is labor-intensive and inefficient for capturing the overall picture of customer satisfaction.
 
-This project aims to automate the classification of customer reviews using machine learning, sorting them into positive or negative categories. By automating this process, hotels can:
+This project aims to automate the classification of customer ratings using machine learning, sorting them into Low or High categories. By automating this process, hotels can:
 - Eliminate manual biases
 - Receive instant feedback
 - Quickly identify customer attitudes and take action

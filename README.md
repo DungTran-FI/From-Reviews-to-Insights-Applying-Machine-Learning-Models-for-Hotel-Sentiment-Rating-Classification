@@ -1,6 +1,6 @@
 # From Reviews to Insights: Applying Machine Learning Models for Sentiment Rating Classification
 
-### The complete report (Jupter Notebook) is available in [Hotel Rating Classification](https://github.com/DungTran-FI/From-Reviews-to-Insights-Applying-Machine-Learning-Models-for-Hotel-Sentiment-Rating-Classification/blob/main/DungTran%20-%20Hotel%20Rating%20Classification.ipynb)
+### The complete report (Jupter Notebook) is available in [Hotel Rating Classification](https://github.com/DungTran-FI/From-Reviews-to-Insights-Applying-Machine-Learning-Models-for-Hotel-Sentiment-Rating-Classification/blob/main/Data%20Modeling%20%26%20Evaluation%20-%20Final.ipynb)
 
 ## 1. Business Problem & Motivation
 Civil services companies, such as hotels, rely heavily on customer reviews to understand their service's strengths and weaknesses. Positive reviews help attract more customers and boost profits. However, manually analyzing each review is labor-intensive and inefficient for capturing the overall picture of customer satisfaction.

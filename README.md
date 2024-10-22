@@ -1,7 +1,6 @@
 # From Reviews to Insights: Applying Machine Learning Models for Sentiment Rating Classification
 
 ### The complete report (Jupter Notebook) is available in [Hotel Rating Classification](https://github.com/DungTran-FI/From-Reviews-to-Insights-Applying-Machine-Learning-Models-for-Hotel-Sentiment-Rating-Classification/blob/main/Data%20Modeling%20%26%20Evaluation%20-%20Final.ipynb)
-
 ## 1. Business Problem & Motivation
 Civil services companies, such as hotels, rely heavily on customer reviews to understand their service's strengths and weaknesses. Positive reviews help attract more customers and boost profits. However, manually analyzing each review is labor-intensive and inefficient for capturing the overall picture of customer satisfaction.
 
@@ -70,7 +69,7 @@ The project demonstrated that the **ability to predict True Negatives (actual lo
 - SMOTE emerged as the best method, achieving an F1-score of 0.83 and a precision of 0.81, effectively capturing low ratings while minimizing false positives.
 - Random Under-Sampling yielded the highest recall of 0.90, successfully identifying more low ratings, although it sacrificed some precision.
 
-Correctly predicting low ratings is crucial for the company, enabling timely interventions to enhance customer retention. Given our focus on accurately identifying True Negatives, we selected **XGBoost with the Random Under-Sampling method (accuracy: 0.8974)** as our final model. 
+Correctly predicting low ratings is crucial for the company, enabling timely interventions to enhance customer retention. Given our focus on accurately identifying True Negatives, we selected **XGBoost with the Random Under-Sampling method (accuracy: 0.8961)** as our final model. 
 
 Additionally, the hyperparameter tuning implementation of **Bayesian Search** improved the model's performance, **increasing the True Negative rate from 0.9007 to 0.9016** compared to the model with default hyperparameters.
 
